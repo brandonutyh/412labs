@@ -1,0 +1,16 @@
+//NAME: Brandon Huang
+//NETID: byh1
+This tar file contains source code written in Java in /src/, Makefile, and executable shell script 412fe, and this README.
+
+Description of command line arguments:
+Command Syntax:
+        ./412fe <flag> filename
+
+Required arguments:
+        filename  is the pathname to the input file for the ILOC Front End
+
+Optional flags:
+        -h                  prints help message describing flags and functionality.
+        -s <filename>       reads input file, and outputs to stdout a list of tokens found by scanner.
+        -p <filename>       reads input file, scans, parses, and builds IR to be printed. Reports operations succeeded and operations failed. Default operation.
+        -r <filename>       reads input file, scans, parses, and builds and prints IR on success.

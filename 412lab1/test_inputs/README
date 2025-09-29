@@ -1,0 +1,13 @@
+COMP 412, Lab 1
+
+This directory contains some small test programs (and T128k.i) 
+intended to help you test and debug your ILOC Front End. 
+
+The files include both valid ILOC codes and error-filled ILOC code.
+A correct lab should do something reasonable with each of these files.
+
+The grading program will use some of these files. It will also use
+files that are not included in this set.
+
+
+Updated:  August, 2021
