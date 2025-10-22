@@ -1,2 +1,19 @@
-//NAME: Brandon Huang
-//NETID: byh1
+// NAME: Brandon Huang
+// NETID: byh1
+
+
+This tar file contains source code written in Java in /src/, Makefile, and executable shell script 412alloc, and this README.
+
+
+Description of command line arguments:
+Command Syntax:
+        ./412alloc <flag> <filename>
+
+Required arguments:
+        filename  is the pathname to the ILOC input file
+
+Optional flags:
+        -h                  Prints help message describing flags and functionality.
+        -x <filename>       Just for CodeCheck1, performs renaming of the code and prints to stdout.
+        k <filename>        k is the number of registers available to the allocator (3 ≤ k ≤ 64).     Pathname to ILOC input. Perfroms scan and parse, renaming and allocation and prints the resulting code to stdout.
+        

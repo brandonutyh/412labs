@@ -14,16 +14,16 @@ public final class Op {
     public Op prev, next;
 
     // Source line number (start of the op)
-    public final int line;
+    public int line;
 
     // Which operation
-    public final Opcode opc;
+    public Opcode opc;
 
     // Operand slots
-    public final int[] sr = new int[3];
-    public final int[] vr = new int[3];
-    public final int[] pr = new int[3];
-    public final int[] nu = new int[3];
+    public int[] sr = new int[3];
+    public int[] vr = new int[3];
+    public int[] pr = new int[3];
+    public int[] nu = new int[3];
 
     // Represents 1 node in linked list
     public Op(int line, Opcode opc) {
